@@ -1,5 +1,7 @@
 {
   "name": "EmergencyCaller",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
