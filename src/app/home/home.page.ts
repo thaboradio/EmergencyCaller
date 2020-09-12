@@ -1,32 +1,16 @@
-import { Component } from '@angular/core';
-import { CallNumber } from '@ionic-native/call-number/ngx';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-home',
   templateUrl: 'home.page.html',
   styleUrls: ['home.page.scss'],
 })
-export class HomePage {
+export class HomePage implements OnInit {
 
-  constructor(private callNumber: CallNumber) {}
+  constructor() {}
 
-  triggerCall() {
-    // this.callNumber.callNumber('0783810537', true);
-    alert('Making a call');
+  ngOnInit() {
 
-    // loop
-    for (let index = 0; index < 5; index++) {
-      this.newMethod();
-      }
-
-
-    // end loop
   }
 
-
-  private newMethod() {
-    this.callNumber.callNumber('0783810537', true)
-      .then(res => console.log('Launched call app', res))
-      .catch(err => console.log('Error launching dialer', err));
-  }
 }

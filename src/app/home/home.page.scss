@@ -4,8 +4,12 @@
   position: absolute;
   left: 0;
   right: 0;
-  top: 50%;
+  top: 95%;
   transform: translateY(-50%);
+
+ion-button {
+  color: #FFFFFF;
+}
 }
 
 #container strong {
@@ -25,3 +29,42 @@
 #container a {
   text-decoration: none;
 }
+
+.header {
+  margin: 2% auto;
+  width: 60%;
+  text-align: center;
+  height: 250px;
+  background:  #7590d6;
+  padding: 100px 20px;
+  transform: rotate(-15deg);
+  border-radius: 10px 50px 10px 50px;
+
+  h2 {
+    color: #FFFFFF;
+  }
+}
+
+.header2 {
+  background: #AB4967;
+  margin: 2% auto;
+  width: 60%;
+  height: 250px;
+  text-align: center;
+  transform: rotate(15deg);
+  border-radius: 50px 10px 50px 10px;
+  padding: 100px 20px;
+  h2{
+    color: #FFFFFF;
+  }
+}
+
+ion-toolbar {
+  --background: #7590d6;
+  --color: #FFFFFF;
+}
+.new-background-color {
+  // --background: #AB4967;
+  --color: #ffffff;
+}
+

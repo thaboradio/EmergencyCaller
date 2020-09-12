@@ -1,18 +1,24 @@
-<ion-header [translucent]="true">
+<ion-header [translucent]="true" class="new-background-color">
   <ion-toolbar>
     <ion-title>
-      Chemical Anatomy
+      Emergency Caller
     </ion-title>
+    <ion-buttons slot="start">
+      <ion-menu-button menu="main-menu" class="new-background-color"></ion-menu-button>
+    </ion-buttons>
   </ion-toolbar>
+
 </ion-header>
 
-<ion-content [fullscreen]="true" style="text-align: center;">
+<ion-content [fullscreen]="true">
 
-  <div class="welcome-text">
-    <h3>Let the people around you be your security</h3>
+  <!-- <div class="header">
+    <h2></h2>
   </div>
-
-  <div class="container">
-    <ion-button (click)="triggerCall()">Call</ion-button>
+  <div class="header2">
+    <h2></h2>
+  </div> -->
+  <div id="container">
+    <ion-button expand="block"></ion-button>
   </div>
 </ion-content>

@@ -1,0 +1,35 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-back-button class="">Back</ion-back-button>
+    <ion-title>My Contact</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="container">
+    <div class="form-group">
+      <ion-item>
+        <ion-label position="stacked">Name</ion-label>
+        <ion-input></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label position="stacked">Surname</ion-label>
+        <ion-input></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label position="stacked">Relationship</ion-label>
+        <ion-select value="notifications" interface="action-sheet">
+          <ion-select-option value="enable">Parent</ion-select-option>
+          <ion-select-option value="mute">Friend</ion-select-option>
+          <ion-select-option value="mute_week">Relative</ion-select-option>
+          <ion-select-option value="mute_year">Guardian</ion-select-option>
+        </ion-select>
+      </ion-item>
+      <ion-item>
+        <ion-label position="stacked">Cellphone</ion-label>
+        <ion-input></ion-input>
+      </ion-item>
+      <ion-button>Add</ion-button>
+    </div>
+  </div>
+</ion-content>
